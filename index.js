@@ -8,7 +8,7 @@ import AlbumList from './src/components/AlbumList';
 //a component is javascript fn that returns some amt of jsx
 //react renders it to the screen
 const App = () => (
-    <View>
+    <View style={{ flex: 1 }}>
         <Header headerText={'Albums'} />
         <AlbumList />
     </View>
